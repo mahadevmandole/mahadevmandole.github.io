@@ -1,28 +1,55 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>AngularPlayground</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-193991837-1"></script>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-ga('create', 'UA-193991837-1', 'auto');
-ga('send', 'pageview');
-ga('send', {
-  hitType: 'event',
-  eventCategory: 'angular',
-  eventAction: 'page hit',
-  eventLabel: 'Pahe viewed'
-});
+    gtag('config', 'UA-193991837-1');
+  </script>
+
+  <script>
+
+
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-193991837-1', 'auto');
+    ga('send', 'pageview');
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'angular',
+      eventAction: 'page hit',
+      eventLabel: 'Pahe viewed'
+    });
   </script>
 </head>
+
 <body>
   <app-root></app-root>
-<script src="angular-playground/runtime-es2015.js" type="module"></script><script src="angular-playground/runtime-es5.js" nomodule defer></script><script src="angular-playground/polyfills-es5.js" nomodule defer></script><script src="angular-playground/polyfills-es2015.js" type="module"></script><script src="angular-playground/styles-es2015.js" type="module"></script><script src="angular-playground/styles-es5.js" nomodule defer></script><script src="angular-playground/vendor-es2015.js" type="module"></script><script src="angular-playground/vendor-es5.js" nomodule defer></script><script src="angular-playground/main-es2015.js" type="module"></script><script src="angular-playground/main-es5.js" nomodule defer></script></body>
+  <script src="angular-playground/runtime-es2015.js" type="module"></script>
+  <script src="angular-playground/runtime-es5.js" nomodule defer></script>
+  <script src="angular-playground/polyfills-es5.js" nomodule defer></script>
+  <script src="angular-playground/polyfills-es2015.js" type="module"></script>
+  <script src="angular-playground/styles-es2015.js" type="module"></script>
+  <script src="angular-playground/styles-es5.js" nomodule defer></script>
+  <script src="angular-playground/vendor-es2015.js" type="module"></script>
+  <script src="angular-playground/vendor-es5.js" nomodule defer></script>
+  <script src="angular-playground/main-es2015.js" type="module"></script>
+  <script src="angular-playground/main-es5.js" nomodule defer></script>
+</body>
+
 </html>
