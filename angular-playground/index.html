@@ -15,6 +15,16 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-193991837-1');
+
+    gtag('event', 'login', {
+      method: 'Google'
+    });
+    gtag('event', 'search', {
+      search_term: 't-shirts'
+    });
+    gtag('event', 'myEvent', {
+      myLabel: 'MyLabel'
+    });
   </script>
 
   <script>
